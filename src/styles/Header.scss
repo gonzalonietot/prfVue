@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 36px;
+  height: 20px;
+  box-shadow: 0 10px 30px -10px rgba(2,12,27,0.7);
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    z-index: 12;
+  }
+  &__logo {
+    color: #fff;
+    font-size: 24px;
+  }
+  &__links {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    ol {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      width: 100%;
+      li {
+        color: #fff;
+      }
+    }
+  }
+}
